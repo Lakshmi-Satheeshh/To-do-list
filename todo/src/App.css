@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.logout {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.logout:hover {
+  background-color: #b52a38;
+}
+
+button.add {
+  background-color: #007bff;
+  color: white;
+}
+
+button.add:hover {
+  background-color: #0056b3;
+}
+
+button.edit {
+  background-color: #ffc107;
+  color: black;
+}
+
+button.edit:hover {
+  background-color: #e0a800;
+}
+
+button.delete {
+  background-color: #28a745;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #218838;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.todo-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+/* Navigation Bar Styling */
+nav {
+  background-color: #e9ecef;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px; /* spacing between links */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+/* input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h1, h2 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button:not(:last-child) {
+  margin-bottom: 10px;
+} */
