@@ -31,7 +31,7 @@ cd backend
 npm install
 node server.js
 
-FRONTEND
+### Frontend
 
 cd todo
 npm install
